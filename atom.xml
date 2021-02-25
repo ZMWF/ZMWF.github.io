@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://softwind.github.io</id>
+    <id>https://zmwf.github.io</id>
     <title>豆豆小屋</title>
-    <updated>2021-02-25T08:52:07.374Z</updated>
+    <updated>2021-02-25T08:59:18.511Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://softwind.github.io"/>
-    <link rel="self" href="https://softwind.github.io/atom.xml"/>
+    <link rel="alternate" href="https://zmwf.github.io"/>
+    <link rel="self" href="https://zmwf.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://softwind.github.io/images/avatar.png</logo>
-    <icon>https://softwind.github.io/favicon.ico</icon>
+    <logo>https://zmwf.github.io/images/avatar.png</logo>
+    <icon>https://zmwf.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 豆豆小屋</rights>
     <entry>
         <title type="html"><![CDATA[人事科2021年工作要点]]></title>
-        <id>https://softwind.github.io/ren-shi-ke-2021-nian-gong-zuo-yao-dian/</id>
-        <link href="https://softwind.github.io/ren-shi-ke-2021-nian-gong-zuo-yao-dian/">
+        <id>https://zmwf.github.io/ren-shi-ke-2021-nian-gong-zuo-yao-dian/</id>
+        <link href="https://zmwf.github.io/ren-shi-ke-2021-nian-gong-zuo-yao-dian/">
         </link>
         <updated>2021-02-24T01:59:37.000Z</updated>
         <content type="html"><![CDATA[<pre><code>    2021年，人事科将进一步明确工作责任，以以下工作要点为统领，全面提高工作质量，提出新举措，开创新局面，力争新突破。
@@ -32,8 +32,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[新的一天开始了]]></title>
-        <id>https://softwind.github.io/xin-de-yi-tian-kai-shi-liao/</id>
-        <link href="https://softwind.github.io/xin-de-yi-tian-kai-shi-liao/">
+        <id>https://zmwf.github.io/xin-de-yi-tian-kai-shi-liao/</id>
+        <link href="https://zmwf.github.io/xin-de-yi-tian-kai-shi-liao/">
         </link>
         <updated>2021-02-24T01:47:37.000Z</updated>
         <content type="html"><![CDATA[<p>我的网站：ZMWF.github.io</p>
@@ -41,8 +41,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
-        <id>https://softwind.github.io/about/</id>
-        <link href="https://softwind.github.io/about/">
+        <id>https://zmwf.github.io/about/</id>
+        <link href="https://zmwf.github.io/about/">
         </link>
         <updated>2019-01-25T11:09:48.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -56,8 +56,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://softwind.github.io/hello-gridea/</id>
-        <link href="https://softwind.github.io/hello-gridea/">
+        <id>https://zmwf.github.io/hello-gridea/</id>
+        <link href="https://zmwf.github.io/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
