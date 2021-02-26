@@ -1,113 +1,101 @@
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" >
 
-<head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>
-    人事科2021年工作要点 | 豆豆小屋
-</title>
-<link rel="shortcut icon" href="https://zmwf.github.io/favicon.ico?v=1614304287623">
-<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
-<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<title>人事科2021年工作要点 | 豆豆小屋</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://zmwf.github.io/favicon.ico?v=1614305384230">
 <link rel="stylesheet" href="https://zmwf.github.io/styles/main.css">
-<!-- js -->
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://zmwf.github.io/media/js/jquery.sticky-sidebar.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
-        
-</head>
 
-<body>
-    <div class="main">
-        <div class="header">
-    <div class="nav">
-        <div class="logo">
-            <a href="https://zmwf.github.io">
-                <img class="avatar" src="https://zmwf.github.io/images/avatar.png?v=1614304287623" alt="">
-            </a>
-            <div class="site-title">
-                <h1>
-                    豆豆小屋
-                </h1>
-            </div>
-        </div>
-        <span class="menu-btn fa fa-align-justify"></span>
-        <div class="menu-container">
-            <ul>
-                
-                    
-                            <li>
-                                <a href="/" class="menu">
-                                    首页
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="/archives" class="menu">
-                                    归档
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="/tags" class="menu">
-                                    标签
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="/post/about" class="menu">
-                                    关于
-                                </a>
-                            </li>
-                            
-                                
-            </ul>
-        </div>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="    2021年，人事科将进一步明确工作责任，以以下工作要点为统领，全面提高工作质量，提出新举措，开创新局面，力争新突破。
+    1.深化教师编配管理。继续做好教职工编制状况核查工作，研究探索教育人才储备方法和途径，进一步完善中小学教职..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://zmwf.github.io">
+        <img src="https://zmwf.github.io/images/avatar.png?v=1614305384230" class="site-logo">
+        <h1 class="site-title">豆豆小屋</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://zmwf.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
 </div>
 
-<script>
-    $(document).ready(function() {
-        $(".menu-btn").click(function() {
-            $(".menu-container").slideToggle();
-        });
-        $(window).resize(function() {
 
-            if (window.matchMedia('(min-width: 960px)').matches) {
-                $(".menu-container").css('display', 'block')
-            } else {
-                $(".menu-container").css('display', 'none')
-            }
-
-        });
-    });
-</script>
-
-            <div id="main-content" class="post-detail main-container">
-                <!-- left -->
-                <div id="content" class="main-container-left">
-                    <article class="post i-card">
-                        <h2 class="post-title">
-                            人事科2021年工作要点
-                        </h2>
-                        <div class="post-info">
-                            <time class="post-time">2021-02-24</time>
-                            
-                        </div>
-                        
-                                <div class="post-content">
-                                    <pre><code>    2021年，人事科将进一步明确工作责任，以以下工作要点为统领，全面提高工作质量，提出新举措，开创新局面，力争新突破。
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">人事科2021年工作要点</h2>
+            <div class="post-date">2021-02-24</div>
+            
+            <div class="post-content" v-pre>
+              <pre><code>    2021年，人事科将进一步明确工作责任，以以下工作要点为统领，全面提高工作质量，提出新举措，开创新局面，力争新突破。
     1.深化教师编配管理。继续做好教职工编制状况核查工作，研究探索教育人才储备方法和途径，进一步完善中小学教职工编制核定，依照编制标准和配备要求，做好中小学、幼儿园缺编教师公开招聘工作，搞好教职工调配等工作。办理好2020年各校人事变动人员的编制，理顺各乡镇混岗问题，争取做到人员的编制、岗位及工资关系对应一致。办理好2020年中小学校招人员及2021年高中校招人员的入职、入编手续。
     2.建立健全教师正常补充机制。继续加大教师招聘力度，到部属6所师范院校择优招录40名免费师范生及“211”以上院校优秀毕业生补充高中教师队伍。到河南大学、河南师范大学、信阳师范学院等3所省内师范院校招聘初中教师60名。另外继续以人事代理方式招聘教师，以满足日益增长的教育发展需求。
     3.合理配置教师资源，优化教师队伍结构，提高农村学校和薄弱学校教育教学质量，促进全县义务教育均衡发展，继续实施乡村教师支持计划。
@@ -120,80 +108,45 @@
     10. 加强对教师队伍的管理与引导，激发广大教师争做“为民服务的孺子牛、创新发展的拓荒牛、艰苦创业的老黄牛”。
 </code></pre>
 
-                                </div>
-                    </article>
-                    <!--  -->
-                    
-                        <div class="next-post">
-                            <div class="next">下一篇</div>
-                            <a href="https://zmwf.github.io/xin-de-yi-tian-kai-shi-liao/">
-                                <h3 class="post-title">
-                                    新的一天开始了
-                                </h3>
-                            </a>
-                        </div>
-                        
-                            <div id="disqus_thread"></div>
-                            <div id="gitalk-container"></div>
-                </div>
-                <!-- middle -->
-                <div class="main-container-middle"></div>
-                <!-- right -->
-                <div id="sidebar" class="main-container-right">
-                    
-                                <!-- id-card -->
-                                
-    <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://zmwf.github.io/images/avatar.png?v=1614304287623)">
-        </div>
-        <h1 class="id_card-title">
-            豆豆小屋
-        </h1>
-        <h2 class="id_card-description">
-            温故而知新
-        </h2>
-        <!--  -->
-        <div class="id_card-sns">
-            <!-- github -->
-            
-                    <!-- twitter -->
-                    
-                            <!-- weibo -->
-                            
-                                    <!-- facebook -->
-                                    
-
-        </div>
-    </div>
-    
-                                    
-
-                </div>
-
-
-
-
             </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://zmwf.github.io/xin-de-yi-tian-kai-shi-liao/">
+                  <h3 class="post-title">
+                    新的一天开始了
+                  </h3>
+                </a>
+              </div>
+            
 
+            
 
-            <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
-  <a class="rss" href="https://zmwf.github.io/atom.xml" target="_blank">RSS</a>
-</div>
+          </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
 
-    </div>
-    <script>
-        $('#sidebar').stickySidebar({
-            topSpacing: 80,
-            // bottomSpacing: 60
-        });
-    </script>
-    
-</body>
 
+
+
+
+  </body>
 </html>
